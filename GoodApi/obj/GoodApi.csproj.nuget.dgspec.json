@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\lcl\\projectDemo\\C#\\OcelotDemo\\GoodApi\\GoodApi.csproj": {}
+  },
+  "projects": {
+    "H:\\lcl\\projectDemo\\C#\\OcelotDemo\\GoodApi\\GoodApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\lcl\\projectDemo\\C#\\OcelotDemo\\GoodApi\\GoodApi.csproj",
+        "projectName": "GoodApi",
+        "projectPath": "H:\\lcl\\projectDemo\\C#\\OcelotDemo\\GoodApi\\GoodApi.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "H:\\lcl\\projectDemo\\C#\\OcelotDemo\\GoodApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://nexus.zh.local/repository/nuget-group/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Com.Ctrip.Framework.Apollo.Configuration": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "FreeSql": {
+              "target": "Package",
+              "version": "[3.2.698, )"
+            },
+            "FreeSql.Provider.MySql": {
+              "target": "Package",
+              "version": "[3.2.698, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
